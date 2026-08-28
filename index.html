@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Skycrest Homes & Properties — exceptional homes and investment properties in Lagos.">
+
+    <title>Skycrest Homes & Properties</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="index.html" class="logo">
+            <span>SKYCREST</span>
+            <small>HOMES & PROPERTIES</small>
+        </a>
+
+        <nav class="desktop-nav">
+            <a href="#properties">Properties</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+            <a href="#contact" class="nav-cta">
+                Schedule a Viewing
+            </a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <button class="close-menu" id="closeMenu">
+            ×
+        </button>
+
+        <a href="#properties">Properties</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+        <a href="#contact" class="mobile-cta">
+            Schedule a Viewing
+        </a>
+
+    </div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    SKYCREST HOMES & PROPERTIES
+                </p>
+                
+                <h1>
+                    Find a home
+                    <br>
+                    worth coming home to.
+                </h1>
+
+                <p class="hero-description">
+                    Exceptional homes and investment properties
+                    in Lagos' most sought-after locations.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#properties" class="btn btn-primary">
+                        Explore Properties
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Schedule a Viewing
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <span>LAGOS, NIGERIA</span>
+
+                <div>
+                    <span>Lekki</span>
+                    <span>Ikoyi</span>
+                    <span>Victoria Island</span>
+                    <span>Chevron</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SEARCH ================= -->
+
+        <section class="search-section">
+
+            <div class="property-search">
+
+                <div class="search-field">
+
+                    <label for="location">
+                        Location
+                    </label>
+
+                    <select id="location">
+
+                        <option value="">
+                            Any Location
+                        </option>
+
+                        <option value="Lekki">
+                            Lekki
+                        </option>
+
+                        <option value="Ikoyi">
+                            Ikoyi
+                        </option>
+
+                        <option value="Victoria Island">
+                            Victoria Island
+                        </option>
+
+                        <option value="Chevron">
+                            Chevron
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="search-field">
+
+                    <label for="type">
+                        Property Type
+                    </label>
+
+                    <select id="type">
+
+                        <option value="">
+                            Any Type
+                        </option>
+
+                        <option value="Detached">
+                            Detached
+                        </option>
+
+                        <option value="Apartment">
+                            Apartment
+                        </option>
+
+                        <option value="Terrace">
+                            Terrace
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="search-field">
+
+                    <label for="price">
+                        Price Range
+                    </label>
+
+                    <select id="price">
+
+                        <option value="">
+                            Any Price
+                        </option>
+
+                        <option value="100">
+                            Under ₦100m
+                        </option>
+
+                        <option value="300">
+                            ₦100m – ₦300m
+                        </option>
+
+                        <option value="500">
+                            ₦300m – ₦500m
+                        </option>
+
+                        <option value="500+">
+                            ₦500m+
+                        </option>
+
+                    </select>
+
+                </div>
+              <a href="properties.html">
+                <button class="search-btn" id="searchBtn">
+                    Search Properties
+                 </button>
+              </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROPERTIES ================= -->
+
+        <section class="section properties-section" id="properties">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow dark">
+                        CURATED FOR YOU
+                    </p>
+
+                    <h2>
+                        Featured Properties
+                    </h2>
+
+                </div>
+
+                <a href="properties.html" class="text-link">
+                    View all properties →
+                </a>
+
+            </div>
+
+
+            <div class="property-grid" id="propertyGrid">
+
+                <!-- PROPERTY 1 -->
+
+                <article class="property-card"
+                         data-location="Lekki"
+                         data-type="Detached"
+                         data-price="315">
+
+                    <div class="property-image">
+
+                        <img src="image/property1.png"
+                             alt="Luxury detached residence">
+
+                        <span class="property-status">
+                            FOR SALE
+                        </span>
+
+                        <button class="heart-btn"
+                                aria-label="Save property">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="property-info">
+
+                        <p class="property-location">
+                            Lekki Phase 1, Lagos
+                        </p>
+
+                        <h3>
+                            5 Bedroom Detached Residence
+                        </h3>
+
+                        <p class="property-price">
+                            ₦315,000,000
+                        </p>
+
+                        <div class="property-meta">
+
+                            <span>
+                                5 Beds
+                            </span>
+
+                            <span>
+                                6 Baths
+                            </span>
+
+                            <span>
+                                650 sqm
+                            </span>
+
+                        </div>
+
+                        <a href="#"
+                           class="property-link">
+                            View Property →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROPERTY 2 -->
+
+                <article class="property-card"
+                         data-location="Ikoyi"
+                         data-type="Apartment"
+                         data-price="275">
+
+                    <div class="property-image">
+
+                        <img src="image/property2.png"
+                             alt="Luxury waterfront apartment">
+
+                        <span class="property-status">
+                            FOR SALE
+                        </span>
+
+                        <button class="heart-btn"
+                                aria-label="Save property">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="property-info">
+
+                        <p class="property-location">
+                            Ikoyi, Lagos
+                        </p>
+
+                        <h3>
+                            Luxury Waterfront Apartment
+                        </h3>
+
+                        <p class="property-price">
+                            ₦275,000,000
+                        </p>
+
+                        <div class="property-meta">
+
+                            <span>
+                                3 Beds
+                            </span>
+
+                            <span>
+                                4 Baths
+                            </span>
+
+                            <span>
+                                320 sqm
+                            </span>
+
+                        </div>
+
+                        <a href="#"
+                           class="property-link">
+                            View Property →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROPERTY 3 -->
+
+                <article class="property-card"
+                         data-location="Chevron"
+                         data-type="Detached"
+                         data-price="390">
+
+                    <div class="property-image">
+
+                        <img src="image/property3.png"
+                             alt="Contemporary luxury home">
+
+                        <span class="property-status">
+                            FOR SALE
+                        </span>
+
+                        <button class="heart-btn"
+                                aria-label="Save property">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="property-info">
+
+                        <p class="property-location">
+                            Chevron, Lekki
+                        </p>
+
+                        <h3>
+                            Contemporary Family Residence
+                        </h3>
+
+                        <p class="property-price">
+                            ₦390,000,000
+                        </p>
+
+                        <div class="property-meta">
+
+                            <span>
+                                5 Beds
+                            </span>
+
+                            <span>
+                                6 Baths
+                            </span>
+
+                            <span>
+                                720 sqm
+                            </span>
+
+                        </div>
+
+                        <a href="#"
+                           class="property-link">
+                            View Property →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <p class="no-results" id="noResults">
+                No properties match your search.
+            </p>
+
+        </section>
+
+
+        <!-- ================= DIFFERENCE ================= -->
+
+        <section class="difference" id="about">
+
+            <div class="difference-content">
+
+                <p class="eyebrow">
+                    THE SKYCREST DIFFERENCE
+                </p>
+
+                <h2>
+                    Property is personal.
+                </h2>
+
+                <p>
+                    Whether you're searching for your next home,
+                    a strategic investment or the right buyer for
+                    your property, Skycrest Homes brings local
+                    expertise and a personal approach to every
+                    transaction.
+                </p>
+
+            </div>
+
+
+            <div class="difference-items">
+
+                <div class="difference-item">
+
+                    <span>01</span>
+
+                    <h3>
+                        Curated Properties
+                    </h3>
+
+                    <p>
+                        Carefully selected opportunities in
+                        prime locations.
+                    </p>
+
+                </div>
+
+
+                <div class="difference-item">
+
+                    <span>02</span>
+
+                    <h3>
+                        Local Expertise
+                    </h3>
+
+                    <p>
+                        Deep knowledge of Lagos' evolving
+                        property market.
+                    </p>
+
+                </div>
+
+
+                <div class="difference-item">
+
+                    <span>03</span>
+
+                    <h3>
+                        Personal Service
+                    </h3>
+
+                    <p>
+                        From first enquiry to final viewing,
+                        we're with you.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LOCATIONS ================= -->
+
+        <section class="section locations">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow dark">
+                        PRIME LOCATIONS
+                    </p>
+
+                    <h2>
+                        Explore Lagos
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="location-grid">
+
+                <a href="#"
+                   class="location-card lekki">
+
+                    <div>
+                        <span>01</span>
+                    
+                        <h3>
+                            Lekki
+                        </h3>
+
+                        <p>
+                            Explore properties →
+                        </p>
+                    </div>
+
+                </a>
+
+
+                <a href="#"
+                   class="location-card ikoyi">
+
+                    <div>
+                        <span>02</span>
+                
+                        <h3>
+                            Ikoyi
+                        </h3>
+
+                        <p>
+                            Explore properties →
+                        </p>
+                    </div>
+
+                </a>
+
+
+                <a href="#"
+                   class="location-card vi">
+
+                    <div>
+                        <span>03</span>
+                
+                        <h3>
+                            Victoria Island
+                        </h3>
+
+                        <p>
+                            Explore properties →
+                        </p>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="section services" id="services">
+
+            <div class="services-intro">
+
+                <p class="eyebrow dark">
+                    WHAT WE DO
+                </p>
+
+                <h2>
+                    More than property.
+                </h2>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <article class="service-card">
+
+                    <span>01</span>
+
+                    <h3>
+                        Buy
+                    </h3>
+
+                    <p>
+                        Find a property that fits your
+                        lifestyle and investment goals.
+                    </p>
+
+                    <a href="#contact">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Sell
+                    </h3>
+
+                    <p>
+                        Position your property for the
+                        right buyers.
+                    </p>
+
+                    <a href="#contact">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Let
+                    </h3>
+
+                    <p>
+                        Connect your property with
+                        qualified tenants.
+                    </p>
+
+                    <a href="#contact">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <span>04</span>
+
+                    <h3>
+                        Short Lets
+                    </h3>
+
+                    <p>
+                        Discover professionally managed
+                        stays in prime locations.
+                    </p>
+
+                    <a href="#contact">
+                        Learn more →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED PROPERTY ================= -->
+
+        <section class="signature-property">
+
+            <div class="signature-image">
+
+                <img src="image/property3.png"
+                     alt="Skycrest signature property">
+
+            </div>
+
+
+            <div class="signature-content">
+
+                <p class="eyebrow dark">
+                    SKYCREST SIGNATURE
+                </p>
+
+                <h2>
+                    A residence
+                    <br>
+                    designed to impress.
+                </h2>
+
+                <p>
+                    Discover a refined contemporary residence
+                    designed for modern Lagos living.
+                </p>
+
+                <div class="signature-details">
+
+                    <div>
+                        <strong>5</strong>
+                        <span>Bedrooms</span>
+                    </div>
+
+                    <div>
+                        <strong>6</strong>
+                        <span>Bathrooms</span>
+                    </div>
+
+                    <div>
+                        <strong>650</strong>
+                        <span>sqm</span>
+                    </div>
+
+                </div>
+
+                <a href="property.html"
+                   class="btn btn-dark">
+                    Explore Property →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section class="section how-it-works">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow dark">
+                        SIMPLE PROCESS
+                    </p>
+
+                    <h2>
+                        Your next home is closer
+                        than you think.
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <span>01</span>
+
+                    <h3>
+                        Discover
+                    </h3>
+
+                    <p>
+                        Explore our curated collection
+                        of properties.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <span>02</span>
+
+                    <h3>
+                        Enquire
+                    </h3>
+
+                    <p>
+                        Speak directly with a
+                        Skycrest adviser.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <span>03</span>
+
+                    <h3>
+                        Move In
+                    </h3>
+
+                    <p>
+                        Get the keys to your
+                        new home.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="final-cta" id="contact">
+
+            <div>
+
+                <p class="eyebrow">
+                    LET'S FIND YOUR NEXT PROPERTY
+                </p>
+
+                <h2>
+                    Found somewhere
+                    <br>
+                    you could call home?
+                </h2>
+
+                <p>
+                    Tell us what you're looking for and
+                    we'll help you find it.
+                </p>
+
+                <div class="cta-buttons">
+
+                    <!-- Replace the number with Skycrest's
+                         confirmed WhatsApp number -->
+
+                    <a href="https://wa.me/2347032517020"
+                       target="_blank"
+                       class="btn btn-light">
+
+                        Chat with Skycrest on WhatsApp →
+
+                    </a>
+
+                    <a href="tel:+2347032517020"
+                       class="btn btn-outline-light">
+
+                        Call Us
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <div class="logo footer-logo">
+
+                    <span>SKYCREST</span>
+
+                    <small>
+                        HOMES & PROPERTIES
+                    </small>
+
+                </div>
+
+                <p>
+                    Exceptional homes.
+                    Exceptional living.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="#properties">
+                    Properties
+                </a>
+
+                <a href="#services">
+                    Services
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>
+                    Contact
+                </h4>
+
+                <a href="tel:+2347032517020">
+                    0703 251 7020
+                </a>
+
+                <a href="mailto:investhub.ng@gmail.com">
+                    investhub.ng@gmail.com
+                </a>
+
+                <span>
+                    Lekki, Lagos, Nigeria
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Skycrest Homes & Properties <br>  By WebDev.
+            </span>
+
+            <div>
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    LinkedIn
+                </a>
+
+                <a href="https://wa.me/2347032517020"
+                   target="_blank">
+                    WhatsApp
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

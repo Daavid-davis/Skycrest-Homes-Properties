@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore premium homes and properties from Skycrest Homes & Properties.">
+
+    <title>Properties | Skycrest Homes & Properties</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="properties.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar inner-navbar" id="navbar">
+
+    <a href="index.html" class="logo">
+        <span>SKYCREST</span>
+        <small>HOMES & PROPERTIES</small>
+    </a>
+
+    <nav class="desktop-nav">
+
+        <a href="properties.html">
+            Properties
+        </a>
+
+        <a href="index.html#services">
+            Services
+        </a>
+
+        <a href="index.html#about">
+            About
+        </a>
+
+        <a href="index.html#contact">
+            Contact
+        </a>
+
+        <a href="index.html#contact" class="nav-cta">
+            Schedule a Viewing
+        </a>
+
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">
+        ☰
+    </button>
+
+</header>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <button class="close-menu" id="closeMenu">
+        ×
+    </button>
+
+    <a href="properties.html">
+        Properties
+    </a>
+
+    <a href="index.html#services">
+        Services
+    </a>
+
+    <a href="index.html#about">
+        About
+    </a>
+
+    <a href="index.html#contact">
+        Contact
+    </a>
+
+</div>
+
+
+<main>
+
+<!-- ================= PAGE HERO ================= -->
+
+<section class="properties-hero">
+
+    <div>
+
+        <p class="eyebrow dark">
+            SKYCREST HOMES & PROPERTIES
+        </p>
+
+        <h1>
+            Find your
+            <br>
+            next address.
+        </h1>
+
+        <p>
+            Explore our collection of carefully selected
+            homes and investment properties across Lagos.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FILTER ================= -->
+
+<section class="catalogue-section">
+
+    <div class="catalogue-top">
+
+        <div>
+
+            <p class="eyebrow dark">
+                PROPERTY COLLECTION
+            </p>
+
+            <h2>
+                Available Properties
+            </h2>
+
+        </div>
+
+        <span id="propertyCount">
+            6 properties
+        </span>
+
+    </div>
+
+
+    <div class="catalogue-filter">
+
+        <div class="filter-group">
+
+            <label>
+                Location
+            </label>
+
+            <select id="locationFilter">
+
+                <option value="all">
+                    All locations
+                </option>
+
+                <option value="Lekki">
+                    Lekki
+                </option>
+
+                <option value="Ikoyi">
+                    Ikoyi
+                </option>
+
+                <option value="Victoria Island">
+                    Victoria Island
+                </option>
+
+                <option value="Chevron">
+                    Chevron
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="filter-group">
+
+            <label>
+                Property Type
+            </label>
+
+            <select id="typeFilter">
+
+                <option value="all">
+                    All types
+                </option>
+
+                <option value="Detached">
+                    Detached House
+                </option>
+
+                <option value="Apartment">
+                    Apartment
+                </option>
+
+                <option value="Terrace">
+                    Terrace
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="filter-group">
+
+            <label>
+                Price
+            </label>
+
+            <select id="priceFilter">
+
+                <option value="all">
+                    Any price
+                </option>
+
+                <option value="100">
+                    Under ₦100m
+                </option>
+
+                <option value="300">
+                    ₦100m – ₦300m
+                </option>
+
+                <option value="500">
+                    ₦300m – ₦500m
+                </option>
+
+                <option value="500plus">
+                    ₦500m+
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <button class="filter-button" id="filterButton">
+            Apply Filters
+        </button>
+
+    </div>
+
+
+<!-- ================= PROPERTY GRID ================= -->
+
+<div class="catalogue-grid" id="catalogueGrid">
+
+
+    <!-- PROPERTY 1 -->
+
+    <article class="catalogue-card"
+             data-location="Lekki"
+             data-type="Detached"
+             data-price="315">
+
+            <div class="catalogue-image">
+
+                <img src="image/property1.png"
+                     alt="Modern detached residence in Lekki">
+
+                <span class="sale-tag">
+                    FOR SALE
+                </span>
+
+            </div>
+
+        <div class="catalogue-info">
+
+            <p class="property-location">
+                Lekki Phase 1, Lagos
+            </p>
+
+            <h3>
+                5 Bedroom Detached Residence
+            </h3>
+
+            <strong>
+                ₦315,000,000
+            </strong>
+
+            <div class="catalogue-meta">
+
+                <span>5 Beds</span>
+                <span>6 Baths</span>
+                <span>650 sqm</span>
+
+            </div>
+
+            <div class="catalogue-actions">
+
+        
+
+                <a href="https://wa.me/2347032517020"
+                   target="_blank"
+                   class="whatsapp-small">
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <!-- PROPERTY 2 -->
+
+    <article class="catalogue-card"
+             data-location="Ikoyi"
+             data-type="Apartment"
+             data-price="275">
+
+            <div class="catalogue-image">
+
+                <img src="image/property10.png"
+                     alt="Luxury apartment in Ikoyi">
+
+                <span class="sale-tag">
+                    FOR SALE
+                </span>
+
+            </div>
+
+        <div class="catalogue-info">
+
+            <p class="property-location">
+                Ikoyi, Lagos
+            </p>
+
+            <h3>
+                Luxury Waterfront Apartment
+            </h3>
+
+            <strong>
+                ₦275,000,000
+            </strong>
+
+            <div class="catalogue-meta">
+
+                <span>3 Beds</span>
+                <span>4 Baths</span>
+                <span>320 sqm</span>
+
+            </div>
+
+            <div class="catalogue-actions">             
+
+                <a href="https://wa.me/2347032517020"
+                   target="_blank"
+                   class="whatsapp-small">
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <!-- PROPERTY 3 -->
+
+    <article class="catalogue-card"
+             data-location="Chevron"
+             data-type="Detached"
+             data-price="390">
+
+
+            <div class="catalogue-image">
+
+                <img src="image/property3.png"
+                     alt="Contemporary family residence">
+
+                <span class="sale-tag">
+                    FOR SALE
+                </span>
+
+            </div>
+
+
+        <div class="catalogue-info">
+
+            <p class="property-location">
+                Chevron, Lekki
+            </p>
+
+            <h3>
+                Contemporary Family Residence
+            </h3>
+
+            <strong>
+                ₦390,000,000
+            </strong>
+
+            <div class="catalogue-meta">
+
+                <span>5 Beds</span>
+                <span>6 Baths</span>
+                <span>720 sqm</span>
+
+            </div>
+
+            <div class="catalogue-actions">
+
+                <a href="https://wa.me/2347032517020"
+                   target="_blank"
+                   class="whatsapp-small">
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <!-- PROPERTY 4 -->
+
+    <article class="catalogue-card"
+             data-location="Lekki"
+             data-type="Terrace"
+             data-price="180">
+
+            <div class="catalogue-image">
+
+                <img src="image/property7.png"
+                     alt="Luxury terrace home">
+
+                <span class="sale-tag">
+                    FOR SALE
+                </span>
+
+            </div>
+
+
+
+        <div class="catalogue-info">
+
+            <p class="property-location">
+                Lekki, Lagos
+            </p>
+
+            <h3>
+                Premium 4 Bedroom Terrace
+            </h3>
+
+            <strong>
+                ₦180,000,000
+            </strong>
+
+            <div class="catalogue-meta">
+
+                <span>4 Beds</span>
+                <span>5 Baths</span>
+                <span>420 sqm</span>
+
+            </div>
+
+            <div class="catalogue-actions">
+
+
+                <a href="https://wa.me/2347032517020"
+                   target="_blank"
+                   class="whatsapp-small">
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <!-- PROPERTY 5 -->
+
+    <article class="catalogue-card"
+             data-location="Victoria Island"
+             data-type="Apartment"
+             data-price="450">
+
+
+            <div class="catalogue-image">
+
+                <img src="image/property13.png"
+                     alt="Luxury Victoria Island apartment">
+
+                <span class="sale-tag">
+                    FOR SALE
+                </span>
+
+            </div>
+
+
+
+        <div class="catalogue-info">
+
+            <p class="property-location">
+                Victoria Island, Lagos
+            </p>
+
+            <h3>
+                Signature 4 Bedroom Apartment
+            </h3>
+
+            <strong>
+                ₦450,000,000
+            </strong>
+
+            <div class="catalogue-meta">
+
+                <span>4 Beds</span>
+                <span>5 Baths</span>
+                <span>390 sqm</span>
+
+            </div>
+
+            <div class="catalogue-actions">
+                <a href="https://wa.me/2347032517020"
+                   target="_blank"
+                   class="whatsapp-small">
+                    WhatsApp
+                </a>
+                
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <!-- PROPERTY 6 -->
+
+    <article class="catalogue-card"
+             data-location="Ikoyi"
+             data-type="Detached"
+             data-price="650">
+
+        
+
+            <div class="catalogue-image">
+
+                <img src="image/property9.png"
+                     alt="Luxury Ikoyi residence">
+
+                <span class="sale-tag">
+                    FOR SALE
+                </span>
+
+            </div>
+
+        
+
+        <div class="catalogue-info">
+
+            <p class="property-location">
+                Ikoyi, Lagos
+            </p>
+
+            <h3>
+                Ultra-Luxury Garden Residence
+            </h3>
+
+            <strong>
+                ₦650,000,000
+            </strong>
+
+            <div class="catalogue-meta">
+
+                <span>6 Beds</span>
+                <span>7 Baths</span>
+                <span>900 sqm</span>
+
+            </div>
+
+            <div class="catalogue-actions">
+
+                
+                <a href="https://wa.me/2347032517020"
+                   target="_blank"
+                   class="whatsapp-small">
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </article>
+
+</div>
+
+
+<p class="catalogue-empty" id="catalogueEmpty">
+    No properties match your search.
+</p>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="catalogue-cta">
+
+    <p class="eyebrow">
+        CAN'T FIND WHAT YOU'RE LOOKING FOR?
+    </p>
+
+    <h2>
+        Tell us what
+        <br>
+        you have in mind.
+    </h2>
+
+    <p>
+        Our property advisers can help you find
+        something that matches your needs.
+    </p>
+
+    <a href="https://wa.me/2347032517020"
+       target="_blank"
+       class="btn btn-light">
+        Talk to an Adviser →
+    </a>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <div class="logo footer-logo">
+
+                <span>SKYCREST</span>
+
+                <small>
+                    HOMES & PROPERTIES
+                </small>
+
+            </div>
+
+            <p>
+                Exceptional homes.
+                Exceptional living.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="properties.html">
+                Properties
+            </a>
+
+            <a href="index.html#services">
+                Services
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Contact</h4>
+
+            <a href="tel:+2347032517020">
+                0703 251 7020
+            </a>
+
+            <a href="mailto:investhub.ng@gmail.com">
+                investhub.ng@gmail.com
+            </a>
+
+            <span>
+                Lekki, Lagos, Nigeria
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Skycrest Homes & Properties <br> WebDev.
+        </span>
+
+        <div>
+
+            <a href="#">
+                Instagram
+            </a>
+
+            <a href="#">
+                LinkedIn
+            </a>
+
+            <a href="https://wa.me/2347032517020">
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="properties.js"></script>
+
+</body>
+</html>

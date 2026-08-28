@@ -1,0 +1,402 @@
+/* =========================================
+   INNER NAVBAR
+========================================= */
+
+.inner-navbar {
+    position: relative;
+    color: var(--text);
+    background: var(--ivory);
+}
+
+.inner-navbar .nav-cta {
+    border-color: var(--text);
+}
+
+
+/* =========================================
+   PROPERTIES HERO
+========================================= */
+
+.properties-hero {
+    min-height: 520px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 100px 8%;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(247,245,240,1) 0%,
+            rgba(247,245,240,0.88) 50%,
+            rgba(247,245,240,0.25) 100%
+        ),
+        url("../images/hero.jpg")
+        center / cover no-repeat;
+}
+
+.properties-hero h1 {
+    font-family: var(--serif);
+
+    font-size: clamp(60px, 7vw, 100px);
+
+    line-height: 0.92;
+
+    font-weight: 400;
+}
+
+.properties-hero > div {
+    max-width: 650px;
+}
+
+.properties-hero > div > p:last-child {
+    margin-top: 30px;
+
+    max-width: 500px;
+
+    color: var(--muted);
+}
+
+
+/* =========================================
+   CATALOGUE
+========================================= */
+
+.catalogue-section {
+    padding: 110px 8%;
+}
+
+.catalogue-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+
+    margin-bottom: 45px;
+}
+
+.catalogue-top h2 {
+    font-family: var(--serif);
+
+    font-size: clamp(42px, 5vw, 65px);
+
+    line-height: 1;
+
+    font-weight: 400;
+}
+
+#propertyCount {
+    color: var(--muted);
+
+    font-size: 12px;
+}
+
+
+/* =========================================
+   FILTER
+========================================= */
+
+.catalogue-filter {
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr 1fr auto;
+
+    gap: 20px;
+
+    padding: 25px;
+
+    background: white;
+
+    margin-bottom: 55px;
+
+    border: 1px solid var(--border);
+}
+
+.filter-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.filter-group label {
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.5px;
+
+    color: var(--muted);
+}
+
+.filter-group select {
+    border: 0;
+
+    border-bottom: 1px solid var(--border);
+
+    background: transparent;
+
+    padding: 10px 0;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+.filter-button {
+    border: 0;
+
+    background: var(--black);
+
+    color: white;
+
+    padding: 0 30px;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.filter-button:hover {
+    background: var(--gold);
+}
+
+
+/* =========================================
+   CATALOGUE GRID
+========================================= */
+
+.catalogue-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 35px 25px;
+}
+
+.catalogue-card {
+    background: white;
+
+    transition: .3s;
+}
+
+.catalogue-card:hover {
+    transform: translateY(-5px);
+}
+
+.catalogue-image {
+    position: relative;
+
+    aspect-ratio: 4 / 3;
+
+    overflow: hidden;
+}
+
+.catalogue-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: .6s;
+}
+
+.catalogue-card:hover .catalogue-image img {
+    transform: scale(1.04);
+}
+
+.sale-tag {
+    position: absolute;
+
+    top: 18px;
+    left: 18px;
+
+    padding: 7px 12px;
+
+    background: white;
+
+    font-size: 9px;
+
+    letter-spacing: 1.5px;
+}
+
+.catalogue-info {
+    padding: 25px;
+}
+
+.catalogue-info h3 {
+    font-family: var(--serif);
+
+    font-size: 26px;
+
+    font-weight: 400;
+
+    line-height: 1.15;
+
+    margin: 7px 0 14px;
+}
+
+.catalogue-info strong {
+    font-size: 18px;
+}
+
+.catalogue-meta {
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 18px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid var(--border);
+
+    color: var(--muted);
+
+    font-size: 11px;
+}
+
+.catalogue-actions {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.catalogue-actions > a:first-child {
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+.whatsapp-small {
+    border: 1px solid #d8d5ce;
+
+    padding: 9px 12px;
+
+    font-size: 10px;
+
+    transition: .3s;
+}
+
+.whatsapp-small:hover {
+    background: var(--black);
+
+    color: white;
+}
+
+.catalogue-empty {
+    display: none;
+
+    text-align: center;
+
+    padding: 60px 0;
+
+    color: var(--muted);
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.catalogue-cta {
+    padding: 130px 8%;
+
+    background: var(--black);
+
+    color: white;
+
+    text-align: center;
+}
+
+.catalogue-cta h2 {
+    font-family: var(--serif);
+
+    font-size: clamp(50px, 7vw, 90px);
+
+    line-height: .95;
+
+    font-weight: 400;
+}
+
+.catalogue-cta > p:not(.eyebrow) {
+    max-width: 500px;
+
+    margin: 30px auto;
+
+    color: rgba(255,255,255,.6);
+}
+
+.catalogue-cta .btn {
+    margin-top: 10px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .catalogue-filter {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .filter-button {
+        min-height: 55px;
+    }
+
+    .catalogue-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .properties-hero {
+        min-height: 450px;
+
+        padding: 80px 6%;
+    }
+
+    .catalogue-section {
+        padding: 80px 6%;
+    }
+
+    .catalogue-top {
+        flex-direction: column;
+
+        align-items: start;
+
+        gap: 15px;
+    }
+
+    .catalogue-filter {
+        grid-template-columns: 1fr;
+
+        padding: 20px;
+    }
+
+    .filter-button {
+        padding: 15px;
+    }
+
+    .catalogue-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .catalogue-cta {
+        padding: 90px 6%;
+    }
+
+}
